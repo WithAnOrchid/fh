@@ -9,6 +9,7 @@ var fs = require('fs');
 var lasterror = new Date;
 var request = require('request');
 const nets = require('net');
+var nmap = require('libnmap');
 var node_ssh = require('node-ssh');
 const path = require('path');
 const url = require('url');
@@ -26,8 +27,9 @@ const app = electron.app
 const BrowserWindow = electron.BrowserWindow // Module to create native browser window.
 var fullpath = app.getPath("appData");
 /*
-	ERROR HANDLING
+	ERROR HANDLING https://github.com/WithAnOrchid/fh.git
 */
+
 let mainWindow
 process.on('uncaughtException', function(err) {
 	console.log('Caught exception: ' + err);
