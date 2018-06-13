@@ -1,3 +1,4 @@
+var exec = require("child_process").exec;
 dir = exec("ls -la", function(err, stdout, stderr) {
     if (err) {
         // should have err.code here?

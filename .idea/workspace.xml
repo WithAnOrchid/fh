@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2fb689a-c63b-42bb-84d0-361eb295e067" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nmap_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmap_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/nmap_test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="nmap_test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nmap_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="3" lean-forward="true" selection-end-line="9" selection-end-column="3" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -139,7 +135,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,10 +150,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="nmap_test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="ssh://pi@192.168.0.11:22/usr/bin/node" nameIsGenerated="true" path-to-js-file="nmap_test.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="nmap_test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" nameIsGenerated="true" path-to-js-file="nmap_test.js" working-dir="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Tony\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -168,7 +164,7 @@
       <updated>1527038416706</updated>
       <workItem from="1527038417890" duration="2791000" />
       <workItem from="1527113617066" duration="2599000" />
-      <workItem from="1528512926991" duration="13807000" />
+      <workItem from="1528512926991" duration="14532000" />
     </task>
     <task id="LOCAL-00001" summary="Add nmap dependency">
       <created>1528774142141</created>
@@ -177,11 +173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528774142146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add nmap test file">
+      <created>1528869672884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528869672884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19197000" />
+    <option name="totallyTimeSpent" value="19922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
@@ -216,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add nmap dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add nmap dependency" />
+    <MESSAGE value="Add nmap test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add nmap test file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -302,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nmap_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="3" lean-forward="true" selection-end-line="9" selection-end-column="3" />
+        <state>
+          <caret selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
