@@ -10,6 +10,7 @@ var request = require('request');
 const nets = require('net');
 var await = require('await');
 var needle = require('needle');
+var nmap = require('libnmap');
 var async = require('neo-async');
 const jetpack = require('fs-jetpack');
 const electron = require('electron')
@@ -38,6 +39,7 @@ function getDateTime() {
     return hour + ":" + min + ":" + sec;
 }
 
+// TODO maybe change this to upload?
 function updateStatus(connection, status) {
     var o = {} // empty Object
     o["status"] = [];
@@ -56,10 +58,10 @@ module.exports = {
         // Starts from here
         var o = {} // empty Object
         console.log("-*-*- STARTING NEW SYNC ROUND -*-*-");
-        require('dns').resolve('api.minerstat.com', function(err) {
+        require('dns').resolve('bing.com', function(err) {
             if (err) {
                 console.log("Round skipped, connection problems.");
-                updateStatus(false, "Waiting for connection..");
+                updateStatus(false, "No Internet connection.");
                 // Start New Round after 20 sec idle
                 setTimeout(function() {
                     var main = require('./main');
