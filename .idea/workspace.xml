@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2fb689a-c63b-42bb-84d0-361eb295e067" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nmap_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/nmap_test.js" afterDir="false" />
-    </list>
+    <list default="true" id="c2fb689a-c63b-42bb-84d0-361eb295e067" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,47 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backend.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nmap_test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nmap_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renderer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3663">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,13 +48,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
@@ -117,8 +69,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="minerstat-asic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minerstat-asic" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +82,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.10.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nmap_test.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,7 +102,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="nmap_test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" nameIsGenerated="true" path-to-js-file="nmap_test.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="nmap_test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="ssh://pi@192.168.0.11:22/usr/bin/node" nameIsGenerated="true" path-to-js-file="nmap_test.js" working-dir="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Tony\AppData\Roaming\Subversion</configuration>
@@ -165,6 +117,7 @@
       <workItem from="1527038417890" duration="2791000" />
       <workItem from="1527113617066" duration="2599000" />
       <workItem from="1528512926991" duration="14532000" />
+      <workItem from="1529126508371" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="Add nmap dependency">
       <created>1528774142141</created>
@@ -184,31 +137,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19922000" />
+    <option name="totallyTimeSpent" value="27413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12441315" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32997677" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.21223858" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4887684" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997677" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12441315" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32850242" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32997677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4887684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997677" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32997677" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +181,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmap_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -279,7 +262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3663">
+        <state relative-caret-position="48">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
@@ -289,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="562">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -299,15 +282,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="59" />
+        <state relative-caret-position="562">
+          <caret line="59" column="59" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nmap_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="24">
+          <caret line="1" column="90" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="128" />
         </state>
       </provider>
     </entry>
